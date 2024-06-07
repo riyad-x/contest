@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath> 
+using namespace std;
+int main() {
+    int N;
+ cin >> N;
+   if(N<=0){
+       return 0;
+   }
+    long long total_nodes = (pow(3, N + 1) - 1) / 2;
+
+   cout << total_nodes <<endl;
+
+    return 0;
+}
